@@ -15,7 +15,7 @@ navigation = st.navigation(
     {
         "Général": [page_accueil],
         "Départements": [page_prod, page_eng],
-        "Fiabilité - Projet": [page_infos, page_stock]
+        #"Fiabilité - Projet": [page_infos, page_stock]
     }
 )
 
