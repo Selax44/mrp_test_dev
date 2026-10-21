@@ -6,7 +6,8 @@ navigation = st.navigation(
       "Stock" : [],
       
     }
-
+)
+    
 st.title("Fiabilité")
 st.write("Voilà la section fiabilité.")
 
