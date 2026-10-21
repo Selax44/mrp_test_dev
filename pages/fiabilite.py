@@ -1,7 +1,5 @@
 import streamlit as st
 
-
-    
 st.title("Fiabilité")
 st.write("Voilà la section fiabilité.")
 
