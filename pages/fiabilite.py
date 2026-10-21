@@ -3,8 +3,7 @@ import streamlit as st
 navigation = st.navigation(
     {
         "Projet": [],
-      "Stock" : [],
-      
+        "Stock" : []
     }
 )
     
