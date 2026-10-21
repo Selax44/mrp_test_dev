@@ -1,12 +1,11 @@
 import streamlit as st
 
-navigation = st.navigation(
-    {
-        "Projet": [],
-        "Stock" : []
-    }
-)
+
     
 st.title("Fiabilité")
 st.write("Voilà la section fiabilité.")
 
+# Création du bouton de navigation
+if st.button("Voir l'inventaire des stocks"):
+    # Indique le chemin exact du fichier cible
+    st.switch_page("pages/fialbilite/fiabilite_stock.py")
