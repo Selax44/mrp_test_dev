@@ -1,3 +1,3 @@
 import streamlit as st
 
-st.title("fiabilite")
+st.title("fiabilité")
