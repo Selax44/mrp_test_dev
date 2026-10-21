@@ -4,10 +4,14 @@ import streamlit as st
 st.set_page_config(page_title="Portail Test", page_icon="🔬", layout="wide")
 
 # 1. Déclaration des pages pointant vers tes fichiers
+# Général
 page_accueil = st.Page("pages/accueil.py", title="Accueil", icon="🏠", default=True)
+# Département
 page_prod = st.Page("pages/production.py", title="Production")
 page_eng = st.Page("pages/engineering.py", title="Engineering")
 page_fiab = st.Page("pages/fiabilite.py", title="Fiabilité")
+#Fiabilité
+page_fiab_stock = st.Page("pages/fiabilite/fiabilite_stock.py", title="Stock")
 #page_infos = st.Page("pages/fiabilite_infos.py", title="Infos", icon="📄")
 #page_stock = st.Page("pages/fiabilite_stock.py", title="Stock (A & B)", icon="📦")
 
