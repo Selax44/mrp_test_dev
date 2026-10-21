@@ -1,6 +1,6 @@
 import streamlit as st
 
-vigation = st.navigation(
+navigation = st.navigation(
     {
         "Projet": [],
       "Stock" : [],
